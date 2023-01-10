@@ -5,8 +5,6 @@
   "main": "bin/index.js",
   "scripts": {
     "start": "node ./bin/index.js",
-    "build": "tsc",
-    "postinstall": "tsc",
     "watch": "tsc -w",
     "dev": "tsc && node ./bin/index.js"
   },
